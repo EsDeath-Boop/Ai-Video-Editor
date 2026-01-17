@@ -1,0 +1,18 @@
+audio:
+  silence_db: -35
+  min_silence_sec: 0.35
+
+segments:
+  min_sec: 30
+  max_sec: 90
+
+gaze:
+  max_px: 3
+  active_sec: 5
+
+camera:
+  smoothing_alpha: 0.15
+
+video:
+  fps: 30
+  vertical_res: [1080, 1920]
